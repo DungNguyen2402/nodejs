@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Product A"
+    },
+    {
+      "name": "Sản phẩm B",
+      "price": 200,
+      "id": "ttujzLJ"
+    },
+    {
+      "name": "Du an 1",
+      "price": 200,
+      "description": "hihihihiiii",
+      "id": "ijHGDG1"
+    }
+  ],
+  "users": [
+    {
+      "email": "dungdungnguyen2402@gmail.com",
+      "password": "1234"
+    }
+  ]
+}

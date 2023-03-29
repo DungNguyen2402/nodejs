@@ -7,12 +7,11 @@ export const checkPermission = async (req, res , next) => {
     try {
         if (!req.headers.authorization) {
             return res.status(401).json({
-               message: "Unauthorized", 
+               message: "Bạn chưa đăng nhập", 
             });
         }
 
         const token = req.headers.authorization.split(" ")[1];
-
         const { _id } = jwt.verify(token, process.env.SECRET_KEY);
         
         const user = await User.findById(_id);
